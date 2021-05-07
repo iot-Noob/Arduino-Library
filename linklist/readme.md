@@ -21,10 +21,10 @@ if a=true then it show result to screen othervise it just return tose values;
 la.search_node(1,true); //this allow you to search node in your linkist and return those values so you can sotre it outside in seprate integer datatype
 ```
  # Links to get more information about topic
-*Links where you can learn more about the topic i added a pdf of that topic as well *
-https://www.bitdegree.org/learn/linked-list-c-plus-plus#:~:text=There%20are%20two%20types%20of,part%20and%20the%20next%20part.
-https://www.geeksforgeeks.org/data-structures/linked-list/
-https://www.tutorialspoint.com/cplusplus-program-to-implement-singly-linked-list
+Links where you can learn more about the topic i added a pdf of that topic as well 
+- https://www.bitdegree.org/learn/linked-list-c-plus-plus#:~:text=There%20are%20two%20types%20of,part%20and%20the%20next%20part.
+- https://www.geeksforgeeks.org/data-structures/linked-list/
+- https://www.tutorialspoint.com/cplusplus-program-to-implement-singly-linked-list
 
 # Author 
 Created by IOT Noob 06/07/2021 V1
