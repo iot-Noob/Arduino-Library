@@ -22,6 +22,10 @@ root = makeEmpty(root);
        Serial.print("\n");
     }
 
-   void BST::search(String x) {
+ String  BST::search(String x) {
       root = find(root, x);
+      return root->data;
     }
+    void  BST::begin(int b=9600) {
+    	Serial.begin(b);
+	}

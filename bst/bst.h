@@ -102,19 +102,21 @@ class BST {
             return find(t->right, x);
         else
             return t;
+ 
     }
 
 public:
 BST();
 ~BST();
-
+void begin();
 void insert(String  x);
 
 void remove(String x);
 
 void display();
 
-void search(String x);
+ String search(String x);
+void  begin(int b=9600);
 };
 
 #endif
