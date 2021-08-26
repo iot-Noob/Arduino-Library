@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For bst
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+BST	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+measure	KEYWORD2
+Sequance1	KEYWORD1
+bst		KEYWORD1 
+node		KEYWORD2 
+insert		KEYWORD2 
+search		KEYWORD2 
+#######################################
+# Constants (LITERAL1)
+#######################################
+

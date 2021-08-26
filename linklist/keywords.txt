@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map For linklist
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+linklist	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+add_node	KEYWORD2
+show_node	KEYWORD1
+search_node	KEYWORD2
+delete_node  	KEYWORD2 
+Insert_node  	KEYWORD2 
+#######################################
+# Constants (LITERAL1)
+#######################################
