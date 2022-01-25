@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For rotory_enc
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+RotoryEncoder	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+beginRoter	KEYWORD2
+GetRoterCounter	KEYWORD2
+GetButtonStatus	KEYWORD2 
+GetRotorPosition KEYWORD2 
+GetRotorCurrentState KEYWORD2 
+GetRotorLastState KEYWORD2 
+#######################################
+# Constants (LITERAL1)
+#######################################
