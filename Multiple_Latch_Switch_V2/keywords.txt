@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For bst
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+latchsw	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+read_btn	KEYWORD2
+bt_paction		KEYWORD2 
+user_action		KEYWORD2 
+btn		KEYWORD2 
+bsd		KEYWORD2 
+btl		KEYWORD2 
+index		KEYWORD2 
+ps		KEYWORD2 
+pe		KEYWORD2 
+tnp		KEYWORD2 
+top		KEYWORD2  
+#######################################
+# Constants (LITERAL1)
+#######################################
+
