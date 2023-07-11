@@ -1,4 +1,4 @@
-# Binary Tree For Arduino 
+# Binary Tree For Arduino
 
 MyLibrary is an Arduino library for working with binary trees. It provides a BinaryTree class that allows users to create, manipulate, and traverse binary trees. It is designed to be used with Arduino boards.
 
@@ -81,6 +81,12 @@ The `BinaryTree.h` file contains the implementation of the `BinaryTree` class, w
 - Performs a depth-first search traversal of the binary tree.
 - Calls the specified callback function for each node in the tree.
 - Uses a recursive helper function `dfsRecursive()` to traverse the tree in a pre-order manner.
+
+#### `void update(const T& oldValue, const T& newValue)`
+
+- Updates a value in the binary tree.
+- Searches for the node with the `oldValue` and replaces it with the `newValue`.
+- Uses a recursive helper function `updateRecursive()` to traverse the tree and find the node to update.
 
 ### QueueList.h
 
@@ -188,8 +194,17 @@ void setup() {
     Serial.println("Object not found!");
   }
 
+  // Update an object in the tree
+  Talha oldValue(3, 42, "Ali");
+  Talha newValue(3, 42, "Updated Ali");
+  tree.update(oldValue, newValue);
+
+  // Perform a breadth-first search traversal after the update
+  Serial.println("BFS traversal after update:");
+  tree.bfs(printValue);
+
   // Remove an object from the tree
-  tree.remove(searchObject);
+  tree.remove(newValue);
 
   // Clear the tree
   tree.clear();
@@ -198,11 +213,8 @@ void setup() {
 void loop() {
   // Your code here
 }
+
 ```
-## Usage
-
-...
-
 ## Library Constraints
 
 - This library is designed to be used with Arduino boards.

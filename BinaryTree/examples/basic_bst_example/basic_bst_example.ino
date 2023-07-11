@@ -18,22 +18,25 @@ void setup() {
   tree.insert(6);
   tree.insert(9);
 
-  tree.bfs(printValue);
+ // tree.bfs(printValue);
   // Outputs: 5 3 8 2 4 6 9
 
-  tree.dfs(printValue);
+  //tree.dfs(printValue);
   // Outputs: 5 3 2 4 8 6 9
 
-  if (tree.search(6)) {
-    Serial.println("Found!");
-  } else {
-    Serial.println("Not found!");
-  }
+//  if (tree.search(6)) {
+//    Serial.println("Found!");
+//  } else {
+//    Serial.println("Not found!");
+//  }
 
-  tree.remove(6);
-  tree.dfs(printValue);
+ // tree.remove(6);
+ Serial.println("Orignal value!!");
+  tree.bfs(printValue);
+  Serial.println("Update value!!");
   // Outputs: 5 3 2 4 8 9
-
+  tree.update(5,2);
+    tree.bfs(printValue);
   tree.clear();
 }
 

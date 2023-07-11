@@ -122,6 +122,20 @@ private:
     dfsRecursive(node->right, callback);
   }
 
+  Node* updateRecursive(Node* node, const T& oldValue, const T& newValue) {
+    if (node == nullptr)
+      return nullptr;
+
+    if (oldValue < node->data)
+      node->left = updateRecursive(node->left, oldValue, newValue);
+    else if (oldValue > node->data)
+      node->right = updateRecursive(node->right, oldValue, newValue);
+    else {
+      node->data = newValue;
+    }
+    return node;
+  }
+
 public:
   BinaryTree()
       : root(nullptr) {}
@@ -157,6 +171,9 @@ const Node* search(const T& value) const {
 
   void dfs(void (*callback)(const T&)) const {
     dfsRecursive(root, callback);
+  }
+    void update(const T& oldValue, const T& newValue) {
+    root = updateRecursive(root, oldValue, newValue);
   }
 };
 
